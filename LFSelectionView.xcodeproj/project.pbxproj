@@ -15,6 +15,7 @@
 		03DC50F81C2941630040C939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03DC50F61C2941630040C939 /* LaunchScreen.storyboard */; };
 		03DC51031C2941630040C939 /* LFSelectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DC51021C2941630040C939 /* LFSelectionViewTests.m */; };
 		03DC510E1C2941630040C939 /* LFSelectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DC510D1C2941630040C939 /* LFSelectionViewUITests.m */; };
+		03DC511E1C29418C0040C939 /* LFSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DC511D1C29418C0040C939 /* LFSelectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		03DC51091C2941630040C939 /* LFSelectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFSelectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03DC510D1C2941630040C939 /* LFSelectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFSelectionViewUITests.m; sourceTree = "<group>"; };
 		03DC510F1C2941630040C939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03DC511C1C29418C0040C939 /* LFSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFSelectionView.h; sourceTree = "<group>"; };
+		03DC511D1C29418C0040C939 /* LFSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFSelectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		03DC50E71C2941630040C939 /* LFSelectionView */ = {
 			isa = PBXGroup;
 			children = (
+				03DC511B1C29416C0040C939 /* SelectionView */,
 				03DC50EB1C2941630040C939 /* AppDelegate.h */,
 				03DC50EC1C2941630040C939 /* AppDelegate.m */,
 				03DC50EE1C2941630040C939 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				03DC510F1C2941630040C939 /* Info.plist */,
 			);
 			path = LFSelectionViewUITests;
+			sourceTree = "<group>";
+		};
+		03DC511B1C29416C0040C939 /* SelectionView */ = {
+			isa = PBXGroup;
+			children = (
+				03DC511C1C29418C0040C939 /* LFSelectionView.h */,
+				03DC511D1C29418C0040C939 /* LFSelectionView.m */,
+			);
+			name = SelectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +289,7 @@
 				03DC50F01C2941630040C939 /* ViewController.m in Sources */,
 				03DC50ED1C2941630040C939 /* AppDelegate.m in Sources */,
 				03DC50EA1C2941630040C939 /* main.m in Sources */,
+				03DC511E1C29418C0040C939 /* LFSelectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
