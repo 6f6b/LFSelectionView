@@ -85,5 +85,6 @@
 
     
 /////////////////代理调节frame////////////////////////////
+    [self.delegate selectView:self];
 }
 @end

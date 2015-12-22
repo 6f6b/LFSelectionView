@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol SeclectionViewDelegate<NSObject>
+- (void)selectView:(UIView *)selectView;
+@end
+
 @interface LFSelectionView : UIView
+@property (nonatomic,strong) id<SeclectionViewDelegate> delegate;
 + (instancetype)selectionViewWith:(NSArray *)titles views:(NSArray *)views origin:(CGPoint)origin;
 @end
